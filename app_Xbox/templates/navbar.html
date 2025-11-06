@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #107C10;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'inicio' %}">
+            <i class="fas fa-gamepad"></i> **Sistema de Administración Xbox**
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'inicio' %}">
+                        <i class="fas fa-home"></i> Inicio
+                    </a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="proveedorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-truck"></i> Proveedores
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="proveedorDropdown">
+                        <li><a class="dropdown-item" href="{% url 'agregar_proveedor' %}">Agregar Proveedor</a></li>
+                        <li><a class="dropdown-item" href="{% url 'ver_proveedores' %}">Ver Proveedores</a></li>
+                        </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="videojuegoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-dice"></i> Videojuegos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="videojuegoDropdown">
+                        <li><a class="dropdown-item" href="#">Agregar Videojuego (Pendiente)</a></li>
+                        <li><a class="dropdown-item" href="#">Ver Videojuegos (Pendiente)</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ventaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-shopping-cart"></i> Ventas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="ventaDropdown">
+                        <li><a class="dropdown-item" href="#">Registrar Venta (Pendiente)</a></li>
+                        <li><a class="dropdown-item" href="#">Ver Ventas (Pendiente)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
