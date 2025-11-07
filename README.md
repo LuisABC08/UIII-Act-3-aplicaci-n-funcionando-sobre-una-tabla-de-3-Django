@@ -1,2 +1,7 @@
 # UIII-Act-3-aplicaci-n-funcionando-sobre-una-tabla-de-3-Django
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/f7f5262c-4df8-4ad3-9e72-24192698597b" />
+<img width="1913" height="979" alt="image" src="https://github.com/user-attachments/assets/9a41c5b3-45ce-4a07-9500-c8c036b3c303" />
+
+<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/5d48059c-4c37-4911-b88a-3e46212037d5" />
+<img width="1917" height="984" alt="image" src="https://github.com/user-attachments/assets/73d52b62-7552-4f44-8b41-fbf38a699b4b" />
+<img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/5ca23f13-6f6d-47a1-a96f-5b07a7b2a606" />
+
